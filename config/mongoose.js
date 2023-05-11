@@ -2,7 +2,7 @@
 const mongoose= require('mongoose');
 //supress wRNING
 mongoose.set('strictQuery', true);
-const path= 'mongodb://localhost/issueTracker';
+const path= 'mongodb://127.0.0.1:27017/issueTracker';
 //  const path = 'mongodb+srv://shubham21101997:1XKDfXnqsQmSfI8C@codeial.0y4o9t7.mongodb.net/?retryWrites=true&w=majority';
 //connected to database -
 mongoose.connect(path);
